@@ -1,9 +1,10 @@
 @import "tailwindcss";
+@import "@nuxt/ui";
 
-@theme {
-  --font-red-hat-display: "Red Hat Display", "sans-serif"; 
-  --font-inter: "Inter", "sans-serif"; 
-  --font-kantumruy-pro: "Kantumruy Pro", "sans-serif"; 
+@theme static {
+  --font-red-hat-display: "Red Hat Display", "sans-serif";
+  --font-inter: "Inter", "sans-serif";
+  --font-kantumruy-pro: "Kantumruy Pro", "sans-serif";
   --font-battambang: "Battambang", "sans-serif";
 
   --breakpoint-tablet: 440px;
