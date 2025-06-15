@@ -1,3 +1,15 @@
+@import "tailwindcss";
+
+@theme {
+  --font-red-hat-display: "Red Hat Display", "sans-serif"; 
+  --font-inter: "Inter", "sans-serif"; 
+  --font-kantumruy-pro: "Kantumruy Pro", "sans-serif"; 
+  --font-battambang: "Battambang", "sans-serif";
+
+  --breakpoint-tablet: 440px;
+  --breakpoint-computer: 1024px;
+}
+
 ::-webkit-scrollbar {
   background-color: transparent;
   height: 0.6em;

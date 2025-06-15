@@ -1,3 +1,5 @@
+import tailwindcss from "@tailwindcss/vite";
+
 export default defineNuxtConfig({
   compatibilityDate: "2024-04-03",
   devtools: { enabled: true },
@@ -10,6 +12,11 @@ export default defineNuxtConfig({
     "dayjs-nuxt",
     "@nuxtjs/google-fonts",
   ],
+  vite: {
+    plugins: [
+      tailwindcss(),
+    ],
+  },
   colorMode: {
     preference: "light",
   },
