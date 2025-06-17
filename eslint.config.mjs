@@ -11,5 +11,6 @@ export default withNuxt({
         },
       },
     ],
+    "vue/multi-word-component-names": ["naver"],
   },
 });
