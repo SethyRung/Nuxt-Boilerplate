@@ -31,8 +31,8 @@ To start a new project using this boilerplate, follow these steps:
 
 1. Prerequisites:
 
-   - Node.js: Ensure you have Node.js (LTS version recommended) installed. You can download it from nodejs.org.
-   - npm or Yarn: Node.js installation typically includes npm. You can also install Yarn if you prefer.
+   - **Node.js**: Ensure you have Node.js (LTS version recommended) installed. You can download it from [nodejs.org](https://nodejs.org/en).
+   - **npm or Yarn**: Node.js installation typically includes npm. You can also install Yarn if you prefer.
 
 2. Clone the Repository:
 
@@ -64,11 +64,11 @@ To start a new project using this boilerplate, follow these steps:
 
 Once the development server is running, you can start building your application:
 
-- **Creating Pages**: Add `.vue` files inside the `pages/` directory to create new routes.
-- **Components**: Develop reusable Vue components in the `components/` directory.
-- **Layouts**: Define common page structures in `layouts/`.
+- **Creating Pages**: Add `.vue` files inside the `app/pages/` directory to create new routes.
+- **Components**: Develop reusable Vue components in the `app/components/` directory.
+- **Layouts**: Define common page structures in `app/layouts/`.
 - **API Routes**: Use the `server/api/` directory for backend API routes (powered by Nitro).
-- **Utilities**: Place helper functions in the `utils/` directory.
+- **Utilities**: Place helper functions in the `app/utils/` directory.
 
 ### Build for Production 📦
 
@@ -93,31 +93,6 @@ yarn start
 ```
 
 This command starts the production server.
-
-## Project Structure 📁
-
-The boilerplate follows a standard Nuxt.js project structure:
-
-```bash
-Nuxt-Boilerplate/
-├── assets/             # Uncompiled assets (CSS, images, fonts)
-│ └── css/              # Global CSS files
-├── layouts/            # Application layouts
-├── pages/              # Application routes/pages
-├── public/             # Static assets (served directly)
-├── server/             # Server-side specific code (API routes, server middleware)
-├── utils/              # Utility functions
-├── .gitignore          # Files/folders to ignore in Git
-├── .prettierignore     # Files/folders ignored by Prettier
-├── .prettierrc         # Prettier configuration
-├── app.config.ts       # Nuxt app configuration
-├── app.vue             # Main Vue application component
-├── eslint.config.mjs   # ESLint configuration
-├── nuxt.config.ts      # Nuxt configuration file
-├── package.json        # Project metadata and dependencies
-├── tsconfig.json       # TypeScript configuration
-└── README.md           # This file
-```
 
 ## License
 
