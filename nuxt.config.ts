@@ -13,7 +13,7 @@ export default defineNuxtConfig({
     "@pinia/nuxt",
     "@vueuse/nuxt",
     "dayjs-nuxt",
-    "@nuxtjs/google-fonts",
+    "@nuxt/fonts",
   ],
   vite: {
     plugins: [tailwindcss()],
