@@ -12,7 +12,6 @@ export default defineNuxtConfig({
     "@nuxt/eslint",
     "@pinia/nuxt",
     "@vueuse/nuxt",
-    "dayjs-nuxt",
     "@nuxt/fonts",
   ],
   vite: {
